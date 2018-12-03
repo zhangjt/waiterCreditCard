@@ -63,7 +63,7 @@
         label="银行icon">
         <template slot-scope="scope">
           <div v-if="scope.row.icon == ''"></div>
-          <!-- <div v-else><img src="https://dev.wdjzt88.com//java/waiter/file//20180814/c9fb招行.png" alt=""></div> -->
+          
           <div v-else><img :src="scope.row.icon" alt=""></div>
         </template>
       </el-table-column>
